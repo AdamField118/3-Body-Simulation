@@ -32,5 +32,5 @@ I start with a quick google search for resources, the stop at my personal textbo
 
 My complete mathematical desciption of the system:  
 Let there be three planets of position $r_0$, $r_1$, and $r_2$  
-The acceleration due to gravity on planet 0 is:
+The acceleration due to gravity on planet 0 is:  
 $$\ddot{r}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$
