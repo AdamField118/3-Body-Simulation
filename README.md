@@ -30,7 +30,15 @@ I start with a quick google search for resources, the stop at my personal textbo
     As far as I can tell, my initial reactio was right, define my variables, make equations of motions for my three bodies, give them some initial velocity, watch it evolve.  
     I also found resources for helping me create a more suffisticated solutions with tools I learned last term like Hamiltonians.
 
-My complete mathematical desciption of the system:  
+Mathematical desciption of the system:
+
 Let there be three planets of position $r_0$, $r_1$, and $r_2$  
-The acceleration due to gravity on planet 0 is:  
-$$\ddot{r}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$
+Using newton's universal law of gravitation, acceleration due to gravity on planet 0 is:  
+$$\Vec{\ddot{r}}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$,  
+acceleration due to gravity on planet 1 is:  
+$$\ddot{r}_1=-Gm_0\frac{r_1-r_0}{|r_1-r_0|^3}-Gm_3\frac{r_1-r_2}{|r_1-r_2|^3}$$,  
+and acceleration due to gravity on planet 2 is:  
+$$\ddot{r}_2=-Gm_0\frac{r_2-r_0}{|r_2-r_0|^3}-Gm_1\frac{r_2-r_1}{|r_2-r_1|^3}$$  
+
+Now I am interested in doing this in Hamiltonians as well, in case I find it easier to code it this way, I likely will code both mathematical desciptions.
+So again let there be three planets of position $r_0$, $r_1$, and $r_2$  
