@@ -1,14 +1,14 @@
 # 3-Body-Simulation
-Goal:
+Goal:\\
 Test my understanding with libraries
 
-Inspiration:
+Inspiration:\\
 My CS major friends, Rio and Jacob, along with an amazing YouTube video by Sebastian Lague https://www.youtube.com/watch?v=8nIB7e_eds4
 
-Project:
+Project:\\
 An animation of the 3-body-problem in python
 
-Steps:
+Steps:\\
 1. Research the three body problem
     - Specifically numerical solutions
 2. Decide which libraries will be best
