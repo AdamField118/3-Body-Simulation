@@ -40,10 +40,10 @@ $$\ddot{\bf{r}}_1=-Gm_0\frac{\bf{r}_1-\bf{r}_0}{|\bf{r}_1-\bf{r}_0|^3}-Gm_3\frac
 and acceleration due to gravity on planet 2 is:  
 $$\ddot{\bf{r}}_2=-Gm_0\frac{\bf{r}_2-\bf{r}_0}{|\bf{r}_2-\bf{r}_0|^3}-Gm_1\frac{\bf{r}_2-\bf{r}_1}{|\bf{r}_2-\bf{r}_1|^3}$$  
 
-Now I am interested in doing this in Hamiltonians as well, in case I find it easier to code it this way, I likely will code both mathematical desciptions.
+Now I am interested in doing this in Hamiltonians as well, in case I find it easier to code it this way, I likely will code both mathematical desciptions.  
 So again let there be three planets of position $r_0$, $r_1$, and $r_2$  
 Since the coordinates of the system are natural, I can define $\mathcal{H}=T+U$  
-This leads me to define the following Hamiltonian for the system:
+This leads me to define the following Hamiltonian for the system:  
 $$\mathcal{H}=\frac{\bf{p}_0^2}{2m_0}+\frac{\bf{p}_1^2}{2m_1}+\frac{\bf{p}_2^2}{2m_2}-\frac{Gm_0m_1}{|\bf{r}_0-\bf{r}_1|}-\frac{Gm_0m_2}{|\bf{r}_0-\bf{r}_2|}-\frac{Gm_1m_2}{|\bf{r}_1-\bf{r}_2|}$$  
 And going through the hamiltonian equations of motion, we get the exact same result as the Newtonian approach. This should have been obvious to me.  
 This was still useful practice, since I may make a phase space animation too!  
