@@ -31,4 +31,4 @@ I start with a quick google search for resources, the stop at my personal textbo
     I also found resources for helping me create a more suffisticated solutions with tools I learned last term like Hamiltonians.
 
 My complete mathematical desciption of the system:
-\(\frac{2}{3}\)
+$frac{}{}$
