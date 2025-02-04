@@ -22,13 +22,15 @@ Steps:
 5. user test
 6. turn in
 
-Research:
+Research:  
 
 My initial understanding is that I just need to define three objects with mass and radius, give them an initial position and velocity, and let the simulation evolve over time based off simply Newton's Universal Law of Gravitation. In practicality that is probably naive, there is a reason that the three body problem is famous. This section is for my research on numerical solutions of the problem.
 
-I start with a quick google search for resources, the stop at my personal textbook library wasn't fruitful so I need to go online:
-    As far as I can tell, my initial reactio was right, define my variables, make equations of motions for my three bodies, give them some initial velocity, watch it evolve.
+I start with a quick google search for resources, the stop at my personal textbook library wasn't fruitful so I need to go online:  
+    As far as I can tell, my initial reactio was right, define my variables, make equations of motions for my three bodies, give them some initial velocity, watch it evolve.  
     I also found resources for helping me create a more suffisticated solutions with tools I learned last term like Hamiltonians.
 
-My complete mathematical desciption of the system:
-$frac{}{}$
+My complete mathematical desciption of the system:  
+Let there be three planets of position $r_0$, $r_1$, and $r_2$  
+The acceleration due to gravity on planet 0 is:
+$$\Ddot{r}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$
