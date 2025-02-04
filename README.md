@@ -34,11 +34,24 @@ Mathematical desciption of the system:
 
 Let there be three planets of position $r_0$, $r_1$, and $r_2$  
 Using newton's universal law of gravitation, acceleration due to gravity on planet 0 is:  
-$$\ddot{r}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$,  
+$$\ddot{\bold{r}}_0=-Gm_2\frac{\bold{r}_0-\bold{r}_1}{|\bold{r}_0-\bold{r}_1|^3}-Gm_3\frac{\bold{r}_0-\bold{r}_2}{|\bold{r}_0-\bold{r}_2|^3},$$  
 acceleration due to gravity on planet 1 is:  
-$$\ddot{r}_1=-Gm_0\frac{r_1-r_0}{|r_1-r_0|^3}-Gm_3\frac{r_1-r_2}{|r_1-r_2|^3}$$,  
+$$\ddot{\bold{r}}_1=-Gm_0\frac{\bold{r}_1-\bold{r}_0}{|\bold{r}_1-\bold{r}_0|^3}-Gm_3\frac{\bold{r}_1-\bold{r}_2}{|\bold{r}_1-\bold{r}_2|^3},$$  
 and acceleration due to gravity on planet 2 is:  
-$$\ddot{r}_2=-Gm_0\frac{r_2-r_0}{|r_2-r_0|^3}-Gm_1\frac{r_2-r_1}{|r_2-r_1|^3}$$  
+$$\ddot{\bold{r}}_2=-Gm_0\frac{\bold{r}_2-\bold{r}_0}{|\bold{r}_2-\bold{r}_0|^3}-Gm_1\frac{\bold{r}_2-\bold{r}_1}{|\bold{r}_2-\bold{r}_1|^3}$$  
 
 Now I am interested in doing this in Hamiltonians as well, in case I find it easier to code it this way, I likely will code both mathematical desciptions.
 So again let there be three planets of position $r_0$, $r_1$, and $r_2$  
+Since the coordinates of the system are natural, I can define $\mathcal{H}=T+U$  
+This leads me to define the following Hamiltonian for the system:
+$$\mathcal{H}=\frac{\bold{p}_0^2}{2m_0}+\frac{\bold{p}_1^2}{2m_1}+\frac{\bold{p}_2^2}{2m_2}-\frac{Gm_0m_1}{|\bold{r}_0-\bold{r}_1|}-\frac{Gm_0m_2}{|\bold{r}_0-\bold{r}_2|}-\frac{Gm_1m_2}{|\bold{r}_1-\bold{r}_2|}$$  
+And going through the hamiltonian equations of motion, we get the exact same result as the Newtonian approach. This should have been obvious to me.  
+This was still useful practice, since I may make a phase space animation too!  
+
+Planning the code:
+
+Three objects of a planet class => calc change in position based on acceleration vectors => animate change => loop
+
+I plan to use matplotlib plotting and animation, along with possibly numpy, scipy, or just math.
+
+Lets start te project.
