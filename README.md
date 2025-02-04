@@ -34,7 +34,7 @@ Mathematical desciption of the system:
 
 Let there be three planets of position $r_0$, $r_1$, and $r_2$  
 Using newton's universal law of gravitation, acceleration due to gravity on planet 0 is:  
-$$\vec{\ddot{r}}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$,  
+$$\ddot{\vec{r}}_0=-Gm_2\frac{r_0-r_1}{|r_0-r_1|^3}-Gm_3\frac{r_0-r_2}{|r_0-r_2|^3}$$,  
 acceleration due to gravity on planet 1 is:  
 $$\ddot{r}_1=-Gm_0\frac{r_1-r_0}{|r_1-r_0|^3}-Gm_3\frac{r_1-r_2}{|r_1-r_2|^3}$$,  
 and acceleration due to gravity on planet 2 is:  
