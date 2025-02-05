@@ -52,6 +52,6 @@ Planning the code:
 
 Three objects of a planet class => calc change in position based on acceleration vectors => animate change => loop
 
-I plan to use matplotlib plotting and animation, along with possibly numpy, scipy, or just math.
+I plan to use matplotlib 3Dplotting and animation, along with possibly numpy, scipy, or just math.
 
 Lets start te project.
